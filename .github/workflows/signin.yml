@@ -8,7 +8,7 @@ on:
 jobs:
   signin:
     name: Aliyun Signin
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
     setps:
       - uses: InYrS/aliyun-auto-signin@main
         with:
